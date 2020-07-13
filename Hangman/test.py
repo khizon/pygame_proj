@@ -25,7 +25,11 @@ A = 65
 # Load Images
 images = []
 for i in range(7):
-    filename = "images/hangman" + str(i) + ".png"
+    filename = (
+        "C:/Users/kielh/Documents/Python_Projects/pygame_proj/Hangman/images/hangman"
+        + str(i)
+        + ".png"
+    )
     image = pygame.image.load(filename)
     images.append(image)
 
